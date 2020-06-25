@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:schedule_app/line.dart';
+import 'package:schedule_app/path.dart';
 import 'package:schedule_app/screens/app_explanation.dart';
 
 void main() {
@@ -11,7 +13,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: AppExplanation(),
+      home: Scaffold(
+        body: Container(
+          child: MyPath(),
+        ),
+      ),
     );
   }
 }
