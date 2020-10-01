@@ -1,3 +1,4 @@
+// Svg files constants
 const kSvgCards = [
   'assets/svg/thinking.svg',
   'assets/svg/calendar.svg',
